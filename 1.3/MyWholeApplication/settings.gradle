@@ -1,0 +1,11 @@
+include ':app'
+
+include 'mylibrary'
+project(':mylibrary').projectDir = new File(settingsDir, "../mylibrary")
+
+include 'hotelmodule'
+project(':hotelmodule').projectDir = new File(settingsDir, "../hotelmodule")
+
+include 'trainmodule'
+project(':trainmodule').projectDir = new File(settingsDir, "../trainmodule")
+

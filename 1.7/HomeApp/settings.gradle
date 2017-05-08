@@ -1,0 +1,4 @@
+include ':app'
+
+include 'homemodule'
+project(':homemodule').projectDir = new File(settingsDir, "../homemodule")
